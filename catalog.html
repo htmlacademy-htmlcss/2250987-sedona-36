@@ -9,21 +9,20 @@
           </head>
             <body>
               <header class="page-header page-header--index">
-                <a class="page-header__logo-link" href="index.html">
-                  <img class="page-header__logo" src="img/logo-sed/sedona.png" width="140" height="71" alt="Логотип Седона">
-                </a>
                 <nav class="page-header__nav">
                   <ul class="page-header__menu-list">
-                    <li class="page-header__menu-item"><a class="page-header__menu-link" href="#">Главная</a></li>
+                    <li class="page-header__menu-item"><a class="page-header__menu-link" href="index.html">Главная</a></li>
                     <li class="page-header__menu-item"><a class="page-header__menu-link" href="#">О Седоне</a></li>
-                    <li class="page-header__menu-item"><a class="page-header__menu-link" href="#">Поиск</a></li>
                     <li class="page-header__menu-item"><a class="page-header__menu-link" href="catalog.html">Гостиницы</a></li>
-                    <li class="page-header__menu-item"><a class="page-header__menu-link" href="#">Хочу сюда</a> </li>
                   </ul>
                 </nav>
-              </header>
+                </header>
+                  <li class="page-header__menu-item"><a class="page-header__menu-link" href="#">Поиск</a></li>
+                     <!---вставка для сердечка-->
+                    <!--<div class="heart"></div>--->
+                  <li class="page-header__menu-item"><a class="page-header__menu-link" href="#">Хочу сюда</a> </li>
 
-  <main class="main-hotels">
+  <ul class="main-hotels">
     <section class="filter-block">
       <h2 class="visually-hidden">Гостиницы Седоны</h2>
       <form action="https://echo.htmlacademy.ru" class="filter-form" method="post">
@@ -67,117 +66,145 @@
         </div>
       </form>
     </section>
-      <section class="content"></section>
-      <h2 class="visually-hidden">Найдено гостиниц: 38</h2>
-       <ul class="sort-method-list">
-          <li><a class="sort-method-link sort-method-link-active">По цене</a></li>
-          <li><a href="#" class="s  ort-method-link">По типу</a></li>
-          <li><a href="#" class="sort-method-link">По рейтингу</a></li>
-        </ul>
 
-      <ul class="content-list"></ul>
-        <div class="content-item"></div>
-          <div class="content-item-wrapper"></div>
-          <img src="img/Catalog/hotel-1.png" alt="Amara hotel" class="hotel-img" width="">
-            <div class="item-descr"></div>
-              <div class="item-descr-wrapper"></div>
-                <a href="#" class="item-head">Amara Resort & Spa</a>
-                <div class="item-descr-subwrapper"></div>
-                  <div class="item-descr-block">
+       <section class="content">
+       <h2 class="visually-hidden">Найдено гостиниц: 38</h2>
+      <div class="filter">
+        <b>Сортировать по:</b>
+        <select name="sort" id="sort">
+            <option value="cheap">Сначала дешевые</option>
+            <option value="rating">По рейтингу</option>
+            <option value="popularity">По популярности</option>
+        </select>
+      </div>
+    </section>
+
+    <!---Секция Отелей--->
+
+      <ul class="content-list">
+        <li class="content-item">
+          <div class="content-item-wrapper">
+           <img src="img/catalog/hotel-1.png" alt="Amara hotel" class="hotel-img" width="">
+           </div>
+          <div class="item-description">
+              <a href="#" class="item-head">Amara Resort & Spa</a>
+                <div class="item-descr-subwrapper">
+                  <div class="item-description-block">
                     <p>Гостиница</p>
                     <a href="#" class="item-button item-button-detail">Подробнее</a>
-                  </div>
-                  <div class="item-descr-block">
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+                <div class="item-description-block">
                     <p>от 4000 р</p>
                     <a href="#" class="item-button item-button-reserve">В избранное</a>
-                  </div>
-
-              <div class="item-descr-rating">
-                <ul class="item-descr-rating-list">
+                </div>
+              <div class="item-description-rating">
+                <ul class="item-description-rating-list">
                   <li><span class="visually-hidden">1 звезда</span></li>
                   <li><span class="visually-hidden">2 звезды</span></li>
                   <li><span class="visually-hidden">3 звезды</span></li>
                   <li class="display-none"><span class="visually-hidden">4 звезды</span></li>
                 </ul>
-                <p class="item-descr-rating-text">Рейтинг: <span class="item-rating">8,5</span></p>
+                <p class="item-description-rating-text">Рейтинг: <span class="item-rating">8,5</span></p>
               </div>
               <div class="content-list"></div>
-                  <ul class="content-item-wrapper"></ul>
-                    <img src="img/Catalog/hotel-2.jpg" alt="Villas at Poco Diablo" class="hotel-img" width="#">
-                    <div class="item-descr"></div>
-                      <div class="item-descr-wrapper"></div>
-                        <a href="#" class="item-head">Villas at Poco Diablo</a>
-                        <div class="item-descr-subwrapper">
-                          <div class="item-descr-block">
+
+                  <ul class="content-list">
+                    <li class="content-item">
+                     <div class="content-item-wrapper">
+                      <img src="img/сatalog/hotel-2.jpg" alt="Villas at Poco Diablo" class="hotel-img" width="#">
+                     </div>
+                    <div class="item-description">
+                       <a href="#" class="item-head">Villas at Poco Diablo</a>
+                        <div class="item-description-subwrapper">
+                          <div class="item-description-block">
                             <p>Гостиница</p>
                             <a href="#" class="item-button item-button-detail">Подробнее</a>
-                          </div>
-                          <div class="item-descr-block">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                          <div class="item-description-block">
                             <p>от 5000 р</p>
                             <a href="#" class="item-button item-button-reserve">В избранном</a>
                           </div>
                         </div>
                       </div>
-                      <div class="item-descr-rating">
-                        <ul class="item-descr-rating-list">
+                      <div class="item-description-rating">
+                        <ul class="item-description-rating-list">
                           <li><span class="visually-hidden">1 звезда</span></li>
                           <li><span class="visually-hidden">2 звезды</span></li>
                           <li><span class="visually-hidden">3 звезды</span></li>
                           <li class="display-none"><span class="visually-hidden">4 звезды</span></li>
                         </ul>
-                        <p class="item-descr-rating-text">Рейтинг: <span class="item-rating">9,2</span></p>
+                        <p class="item-description-rating-text">Рейтинг: <span class="item-rating">9,2</span></p>
                       </div>
-        <li class="content-item"></li>
-          <div class="content-item-wrapper"></div>
-          <img src="img/Catalog/hotel-3.jpg" alt="Desert Quail Inn" class="hotel-img" width="">
-            <div class="item-descr">
-              <div class="item-descr-wrapper">
-                <a href="#" class="item-head">Desert Quail Inn</a>
-                <div class="item-descr-subwrapper">
-                  <div class="item-descr-block">
+
+                 <ul class="content-list">
+                   <li class="content-item">
+                    <div class="content-item-wrapper">
+                     <img src="img/catalog/hotel-3.jpg" alt="Desert Quail Inn" class="hotel-img" width="">
+                    </div>
+                   <div class="item-description">
+                      <a href="#" class="item-head">Desert Quail Inn</a>
+                      <div class="item-description-subwrapper">
+                       <div class="item-description-block">
                     <p>Гостиница</p>
                     <a href="#" class="item-button item-button-detail">Подробнее</a>
                   </div>
-                  <div class="item-descr-block">
+                </div>
+              </div>
+            </li>
+          </ul>
+                  <div class="item-description-block">
                     <p>от 2500 р</p>
                     <a href="#" class="item-button item-button-reserve">В избранное</a>
                   </div>
                 </div>
               </div>
-              <div class="item-descr-rating">
-                <ul class="item-descr-rating-list">
+              <div class="item-description-rating">
+                <ul class="item-description-rating-list">
                   <li><span class="visually-hidden">1 звезда</span></li>
                   <li><span class="visually-hidden">2 звезды</span></li>
                   <li><span class="visually-hidden">3 звезды</span></li>
                 </ul>
-                <p class="item-descr-rating-text">Рейтинг: <span class="item-rating">8,9</span></p>
+                <p class="item-description-rating-text">Рейтинг: <span class="item-rating">8,9</span></p>
               </div>
             </div>
           </div>
 
-        <li class="content-item">
-          <div class="content-item-wrapper">
-            <img src="img/Catalog/hotel-4.jpg" alt="GreenTree Inn" class="hotel-img" width="#">
-            <div class="item-descr">
-              <div class="item-descr-wrapper">
-                <a href="#" class="item-head">GreenTree Inn</a>
-                <div class="item-descr-subwrapper">
-                  <div class="item-descr-block">
+              <ul class="content-list">
+               <li class="content-item">
+              <div class="content-item-wrapper">
+                <img src="img/catalog/hotel-4.jpg" alt="GreenTree Inn" class="hotel-img" width="#">
+              </div>
+                <div class="item-description">
+                 <a href="#" class="item-head">GreenTree Inn</a>
+                 <div class="item-description-subwrapper">
+                  <div class="item-description-block">
                     <p>Гостиница</p>
                     <a href="#" class="item-button item-button-detail">Подробнее</a>
-                  </div>
-                  <div class="item-descr-block">
+                 </div>
+               </div>
+             </div>
+            </li>
+          </ul>
+                  <div class="item-description-block">
                     <p>от 1500 р</p>
                     <a href="#" class="item-button item-button-reserve">В избранное</a>
                   </div>
                 </div>
               </div>
-              <div class="item-descr-rating">
-                <ul class="item-descr-rating-list">
+              <div class="item-description-rating">
+                <ul class="item-description-rating-list">
                   <li><span class="visually-hidden">1 звезда</span></li>
                   <li class="display-none"><span class="visually-hidden">2 звезды</span></li>
                 </ul>
-                <p class="item-descr-rating-text">Рейтинг: <span class="item-rating">5.0</span></p>
+                <p class="item-description-rating-text">Рейтинг: <span class="item-rating">5.0</span></p>
               </div>
             </div>
           </div>
@@ -185,7 +212,6 @@
       </ul>
       </li>
     </main>
-
 
 <form>
   <p class="search-block-head">Подпишитесь на рассылку</p>
