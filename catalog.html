@@ -1,30 +1,25 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="utf-8">
-	<title>Седона</title>
-</head>
-<header class="main-header"></header>
-	<div class="container">
-		<header>
-			<nav class="navigation">
-				<ul class="navigation-list ">
-					<li class="navigation-item">
-						<a href="#" class="navigation-link">Главная</a>
-						<a href="#" class="index.html">О Седоне</a>
-					<li>
-            <class="main-header-logo">
-              <!---<img src="#" alt="Логотип сайта городка Седона">-->
-            <span class="visually-hidden">Поиск</span>
-					</li>
-					<li>
-						<a href="booking.html" class="navigation-hotel">Гостиницы</a>
-					</li>
-				</ul>
-        <a class="button-main" href="#">Хочу сюда</a>
-			</nav>
-		</header>
-  </header>
+          <html lang="ru">
+          <head>
+            <meta charset="utf-8">
+            <title>Седона</title>
+          </head>
+            <body>
+              <header class="page-header page-header--index">
+                <a class="page-header__logo-link" href="index.html">
+                  <img class="page-header__logo" src="img/svg/logo-sedona.svg" width="140" height="71" alt="Логотип Седона">
+                </a>
+                <nav class="page-header__nav">
+                  <ul class="page-header__menu-list">
+                    <li class="page-header__menu-item"><a class="page-header__menu-link" href="index.html">Главная</a></li>
+                    <li class="page-header__menu-item"><a class="page-header__menu-link" href="#">О Седоне</a></li>
+                    <li class="page-header__menu-item"><a class="page-header__menu-link" href="#">Поиск</a></li>
+                    <li class="page-header__menu-item"><a class="page-header__menu-link" href="catalog.html">Гостиницы</a></li>
+                    <li class="page-header__menu-item"><a class="page-header__menu-link" href="#">Хочу сюда</a> </li>
+                  </ul>
+                </nav>
+              </header>
+
   <main class="main-hotels">
     <section class="filter-block">
       <h2 class="visually-hidden">Гостиницы Седоны</h2>
@@ -69,22 +64,22 @@
         </div>
       </form>
     </section>
-      <section class="content">
+      <section class="content"></section>
       <h2 class="visually-hidden">Найдено гостиниц: 38</h2>
        <ul class="sort-method-list">
           <li><a class="sort-method-link sort-method-link-active">По цене</a></li>
           <li><a href="#" class="s  ort-method-link">По типу</a></li>
           <li><a href="#" class="sort-method-link">По рейтингу</a></li>
         </ul>
-         </div>
-      <ul class="content-list">
-        <li class="content-item">
-          <div class="content-item-wrapper">
+
+      <ul class="content-list"></ul>
+        <div class="content-item"></div>
+          <div class="content-item-wrapper"></div>
             <img src="#" alt=">Amara Resort & Spa" class="hotel-img" width="#">
-            <div class="item-descr">
-              <div class="item-descr-wrapper">
+            <div class="item-descr"></div>
+              <div class="item-descr-wrapper"></div>
                 <a href="#" class="item-head">Amara Resort & Spa</a>
-                <div class="item-descr-subwrapper">
+                <div class="item-descr-subwrapper"></div>
                   <div class="item-descr-block">
                     <p>Гостиница</p>
                     <a href="#" class="item-button item-button-detail">Подробнее</a>
@@ -93,8 +88,7 @@
                     <p>от 4000 р</p>
                     <a href="#" class="item-button item-button-reserve">В избранное</a>
                   </div>
-                </div>
-              </div>
+
               <div class="item-descr-rating">
                 <ul class="item-descr-rating-list">
                   <li><span class="visually-hidden">1 звезда</span></li>
@@ -104,12 +98,11 @@
                 </ul>
                 <p class="item-descr-rating-text">Рейтинг: <span class="item-rating">8,5</span></p>
               </div>
-              <ul class="content-list">
-                <li class="content-item">
-                  <div class="content-item-wrapper">
+              <div class="content-list"></div>
+                  <ul class="content-item-wrapper"></ul>
                     <img src="#" alt="Villas at Poco Diablo" class="hotel-img" width="#">
-                    <div class="item-descr">
-                      <div class="item-descr-wrapper">
+                    <div class="item-descr"></div>
+                      <div class="item-descr-wrapper"></div>
                         <a href="#" class="item-head">Villas at Poco Diablo</a>
                         <div class="item-descr-subwrapper">
                           <div class="item-descr-block">
@@ -131,8 +124,8 @@
                         </ul>
                         <p class="item-descr-rating-text">Рейтинг: <span class="item-rating">9,2</span></p>
                       </div>
-        <li class="content-item">
-          <div class="content-item-wrapper">
+        <li class="content-item"></li>
+          <div class="content-item-wrapper"></div>
             <img src="#" alt="Desert Quail Inn" class="hotel-img" width="#">
             <div class="item-descr">
               <div class="item-descr-wrapper">
@@ -158,7 +151,7 @@
               </div>
             </div>
           </div>
-        </li>
+
         <li class="content-item">
           <div class="content-item-wrapper">
             <img src="#" alt="GreenTree Inn" class="hotel-img" width="#">
@@ -187,8 +180,24 @@
           </div>
         </li>
       </ul>
-    </section>
-  </main>
+      </li>
+    </main>
+
+
+<form>
+  <p class="search-block-head">Подпишитесь на рассылку</p>
+  <p class="search-block-descr">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
+   <input type="email" placeholder="Ваш e-male">
+  <input type="submit" value="Подписаться">
+</form>
+<div class="pagination_section">
+  <a href="#" title="button">1</a>
+   <a href="#" title="button">2</a>
+   <a href="#" title="button">3</a>
+   <a href="#" title="button">4</a>
+   <a href="#" title="button">...</a>
+   <a href="#" title="button">10</a>
+   </div>
   <footer class="footer">
        <div class="footer-social">
       <ul class="footer-social-list">
@@ -209,12 +218,8 @@
         </li>
       </ul>
     </div>
-    <div class="htmlacademy-block">
-      <span>WEBSITE by</span>
-      <a href="https://htmlacademy.ru/" class="footer-htmlacademy-link">
-         </a>
-    </div>
+    <div class="htmlacademy-block"></div>
+      <a href="https://htmlacademy.ru/" class="footer-htmlacademy-link"></a>
   </footer>
-</div>
 </body>
 </html>
