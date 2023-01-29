@@ -9,21 +9,22 @@
           </head>
             <body>
               <header class="page-header page-header--index">
-                <nav class="page-header__nav">
-                  <ul class="page-header__menu-list">
-                    <li class="page-header__menu-item"><a class="page-header__menu-link" href="#">Главная</a></li>
-                    <li class="page-header__menu-item"><a class="page-header__menu-link" href="#">О Седоне</a></li>
-                    <li class="page-header__menu-item"><a class="page-header__menu-link" href="catalog.html">Гостиницы</a></li>
+                <nav class="page-header-nav">
+                  <ul class="page-header-menu-list">
+                    <li class="page-header-menu-item"><a class="page-header-menu-link" href="#">Главная</a></li>
+                    <li class="page-header-menu-item"><a class="page-header-menu-link" href="#">О Седоне</a></li>
+                    <li class="page-header-menu-item"><a class="page-header-menu-link" href="catalog.html">Гостиницы</a></li>
                   </ul>
                 </nav>
-                </header>
-                  <li class="page-header__menu-item"><a class="page-header__menu-link" href="#">Поиск</a></li>
-                     <!---вставка для сердечка-->
-                    <!--<div class="heart"></div>--->
-                  <li class="page-header__menu-item"><a class="page-header__menu-link" href="#">Хочу сюда</a> </li>
+              </header>
+                <ul class="page-header-second">
+                  <li class="page-header-menu-item"><a class="page-header-menu-link" href="#">Поиск</a></li>
+                   <li class="page-header-menu-item"><a class="page-header-menu-link" href="#">Хочу сюда</a></li>
+                </ul>
 
       <section class="welcome">
-        <img class="sedona-index" src="#" alt="" width="#" height="#">
+        <img class="sedona-index-background" src="images/index-background.jpg" alt="Основное изображение Седоны." width="1200" height="485">
+        <img class="sedona-index" src="images/sedona-index.svg" alt="Логотип городка Седона." width="458" height="352">
          <h1>Седона &mdash; небольшой городок в Аризоне,<br/> заслуживающий большего!</h1>
          <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
@@ -78,12 +79,12 @@
                 </ul>
               </section>
 
-        <section class="sedona-welcom">
+      <section class="sedona-welcome">
         <ul class="features">
-          <div class=”feature_promo_content”>
+          <li class=”feature_promo_content”>
           <h2 class="visually-hidden">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
           <p>Опытный персонал и качественное обслуживание!</p>
-          </div>
+          </li>
         </ul>
       </section>
         <section class="search-hotels">
@@ -127,10 +128,11 @@
             </form>
           </div>
         </section>
+
           <section class="search-hotels">
             <h2>ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
             <p>Только полезная информация и никакого спама, <br> честное бойскаутское!</p>
-            <form action="">
+            <form action="subscribe">
               <input type="email" name="email" placeholder="Ваш e-mail">
               <input type="submit" value="ПОДПИСАТЬСЯ">
             </form>

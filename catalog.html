@@ -8,21 +8,20 @@
     <link rel="stylesheet" href="css/style.min.css">
           </head>
             <body>
-              <header class="page-header page-header--index">
-                <nav class="page-header__nav">
-                  <ul class="page-header__menu-list">
-                    <li class="page-header__menu-item"><a class="page-header__menu-link" href="index.html">Главная</a></li>
-                    <li class="page-header__menu-item"><a class="page-header__menu-link" href="#">О Седоне</a></li>
-                    <li class="page-header__menu-item"><a class="page-header__menu-link" href="catalog.html">Гостиницы</a></li>
+            <header class="page-header page-header--index">
+                <nav class="page-header-nav">
+                  <ul class="page-header-menu-list">
+                    <li class="page-header-menu-item"><a class="page-header-menu-link" href="index.html">Главная</a></li>
+                    <li class="page-header-menu-item"><a class="page-header-menu-link" href="#">О Седоне</a></li>
+                    <li class="page-header-menu-item"><a class="page-header-menu-link" href="catalog.html">Гостиницы</a></li>
                   </ul>
                 </nav>
-                </header>
-                  <li class="page-header__menu-item"><a class="page-header__menu-link" href="#">Поиск</a></li>
-                     <!---вставка для сердечка-->
-                    <!--<div class="heart"></div>--->
-                  <li class="page-header__menu-item"><a class="page-header__menu-link" href="#">Хочу сюда</a> </li>
-
-  <ul class="main-hotels">
+              </header>
+                <ul class="page-header-second">
+                  <li class="page-header-menu-item"><a class="page-header-menu-link" href="#">Поиск</a></li>
+                   <li class="page-header-menu-item"><a class="page-header-menu-link" href="#">Хочу сюда</a></li>
+                </ul>
+  <main class="main-hotels">
     <section class="filter-block">
       <h2 class="visually-hidden">Гостиницы Седоны</h2>
       <form action="https://echo.htmlacademy.ru" class="filter-form" method="post">
@@ -67,16 +66,17 @@
       </form>
     </section>
 
-       <section class="content">
-       <h2 class="visually-hidden">Найдено гостиниц: 38</h2>
-      <div class="filter">
-        <b>Сортировать по:</b>
-        <select name="sort" id="sort">
+
+    <section class="content">
+        <h2 class="visually-hidden">Найдено гостиниц: 38</h2>
+       <div class="filter">
+         <b>Сортировать по:</b>
+          <select name="sort" id="sort">
             <option value="cheap">Сначала дешевые</option>
             <option value="rating">По рейтингу</option>
             <option value="popularity">По популярности</option>
-        </select>
-      </div>
+          </select>
+       </div>
     </section>
 
     <!---Секция Отелей--->
@@ -84,7 +84,7 @@
       <ul class="content-list">
         <li class="content-item">
           <div class="content-item-wrapper">
-           <img src="img/catalog/hotel-1.png" alt="Amara hotel" class="hotel-img" width="">
+           <img src="images/hotel-1.png" class="hotel-img" width="300" height="212" alt="Иллюстрация отеля Амара.">
            </div>
           <div class="item-description">
               <a href="#" class="item-head">Amara Resort & Spa</a>
@@ -115,7 +115,7 @@
                   <ul class="content-list">
                     <li class="content-item">
                      <div class="content-item-wrapper">
-                      <img src="img/сatalog/hotel-2.jpg" alt="Villas at Poco Diablo" class="hotel-img" width="#">
+                      <img src="images/hotel-2.jpg" class="hotel-img" width="300" height="212" alt="Иллюстрация отеля Вилла Поко Диабло.">
                      </div>
                     <div class="item-description">
                        <a href="#" class="item-head">Villas at Poco Diablo</a>
@@ -132,8 +132,6 @@
                             <p>от 5000 р</p>
                             <a href="#" class="item-button item-button-reserve">В избранном</a>
                           </div>
-                        </div>
-                      </div>
                       <div class="item-description-rating">
                         <ul class="item-description-rating-list">
                           <li><span class="visually-hidden">1 звезда</span></li>
@@ -147,7 +145,7 @@
                  <ul class="content-list">
                    <li class="content-item">
                     <div class="content-item-wrapper">
-                     <img src="img/catalog/hotel-3.jpg" alt="Desert Quail Inn" class="hotel-img" width="">
+                     <img src="images/hotel-3.jpg" class="hotel-img" width="300" height="212" alt="Иллюстрация отеля Десерт Квил Инн.">
                     </div>
                    <div class="item-description">
                       <a href="#" class="item-head">Desert Quail Inn</a>
@@ -164,8 +162,6 @@
                     <p>от 2500 р</p>
                     <a href="#" class="item-button item-button-reserve">В избранное</a>
                   </div>
-                </div>
-              </div>
               <div class="item-description-rating">
                 <ul class="item-description-rating-list">
                   <li><span class="visually-hidden">1 звезда</span></li>
@@ -174,13 +170,10 @@
                 </ul>
                 <p class="item-description-rating-text">Рейтинг: <span class="item-rating">8,9</span></p>
               </div>
-            </div>
-          </div>
-
               <ul class="content-list">
                <li class="content-item">
               <div class="content-item-wrapper">
-                <img src="img/catalog/hotel-4.jpg" alt="GreenTree Inn" class="hotel-img" width="#">
+                <img src="images/hotel-4.jpg" class="hotel-img" width="300" height="212" alt="Иллюстрация отеля Грен Трии Инн.">
               </div>
                 <div class="item-description">
                  <a href="#" class="item-head">GreenTree Inn</a>
@@ -197,21 +190,14 @@
                     <p>от 1500 р</p>
                     <a href="#" class="item-button item-button-reserve">В избранное</a>
                   </div>
-                </div>
-              </div>
-              <div class="item-description-rating">
+
+              <div class="item-description-rating"></div>
                 <ul class="item-description-rating-list">
                   <li><span class="visually-hidden">1 звезда</span></li>
                   <li class="display-none"><span class="visually-hidden">2 звезды</span></li>
                 </ul>
                 <p class="item-description-rating-text">Рейтинг: <span class="item-rating">5.0</span></p>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
-      </li>
-    </main>
+
 
 <form>
   <p class="search-block-head">Подпишитесь на рассылку</p>
@@ -219,14 +205,16 @@
    <input type="email" placeholder="Ваш e-male">
   <input type="submit" value="Подписаться">
 </form>
-<div class="pagination_section">
+  <div class="pagination_section">
   <a href="#" title="button">1</a>
    <a href="#" title="button">2</a>
    <a href="#" title="button">3</a>
    <a href="#" title="button">4</a>
    <a href="#" title="button">...</a>
    <a href="#" title="button">10</a>
-   </div>
+  </div>
+</main>
+
   <footer class="footer">
        <div class="footer-social">
       <ul class="footer-social-list">
@@ -250,5 +238,5 @@
     <div class="htmlacademy-block"></div>
       <a href="https://htmlacademy.ru/" class="footer-htmlacademy-link"></a>
   </footer>
-</body>
+ </body>
 </html>
