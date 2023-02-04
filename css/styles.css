@@ -423,8 +423,7 @@ text-align: center;
 padding: 50px;
 }
 
-.newsletter {
-background-image: url(../images/subscribe.png);
+.newsletter-catalog {
 background-size: cover;
 display: flex;
 flex-direction: column;
@@ -434,16 +433,37 @@ gap: 10px;
 width: 1200px;
 height: 414.86px;
 text-transform: uppercase;
-color: #FFFFFF;
+color: #000000
 
 /* Inside auto layout */
 
 flex: none;
 order: 5;
 flex-grow: 0;
-background-color: #756157;
 
 }
+
+.newsletter {
+  background-image: url(../images/subscribe.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 1200px;
+  height: 414.86px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+  background-color: #756157;
+
+  }
 
 
 .welcome-friends {
