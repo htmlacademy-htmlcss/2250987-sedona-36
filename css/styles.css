@@ -34,6 +34,9 @@ body {
   font-weight: 400;
   color: #333333;
   background-color: #F2F2F2;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content auto min-content;
 }
 
 .visually-hidden {
@@ -336,8 +339,10 @@ body {
 
 .footer-container {
   display: flex;
-  margin: 45px 70px 35px;
+ justify-content: space-between;
   padding: 0;
+  align-items: center;
+  padding: 40px 70px 30px 70px;
 }
 
 .footer-list-social {
@@ -349,12 +354,32 @@ body {
   min-height: 40px;
 }
 
+.logo-html-academy {
+  display: block;
+}
+
 .footer-item-social {
   min-width: 47px;
 }
 
 .footer-contacts {
   margin: 0 auto;
+}
+
+.icon-youtube {
+  display: flex;
+  padding: 12px 11px;;
+}
+
+.icon-telegram
+{
+  display: flex;
+  padding: 12px 11px;;
+}
+
+.icon-vk {
+  display: flex;
+  padding: 12px 11px;;
 }
 
 .contacts-phone {
@@ -577,31 +602,60 @@ body {
   height: 48px;
 }
 
-/* catalog - или карточки отелей! */
-
-.hotel-card {
+.hotel-card-list {
+  padding:0;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
-  width: 1060px;
-  margin: 0 auto;
-  padding: 0;
-  justify-content: space-between;
-  list-style-type: none;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3,340px);
+  list-style: none;
+  margin-bottom: 80px;
+  justify-content: center;
+
 }
 
 .hotel-card-item {
   width: 340px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #E6E6E6;
+}
+
+.hotel-card-image {
+  width: 300px;
+  padding: 20px;
+  padding-bottom: 16px;
+}
+
+.hotel-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2,140px);
+  row-gap: 16px;
+  column-gap: 20px;
+  padding: 20px;
+}
+
+.hotel-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  color: #333333;
 }
 
 .hotel-card-link {
   text-decoration: none;
+  color: #000000;
 }
-
 .hotel-card-title {
+  font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
-  color: #000000
+  margin: 0;
+  margin-bottom: 16px;
+  padding-left: 20px;
 }
 
 .hotel-card-rate {
@@ -635,6 +689,12 @@ body {
 
 .button-catalog-in-favorites {
   background-color: #7DB54F;
+}
+
+.catalog-hotel {
+display: grid;
+flex-direction: column;
+
 }
 
 /* pagination или КНОПКИ */
@@ -810,6 +870,13 @@ body {
   }
 
 
+  /*.footer-social {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 40px 70px 30px 70px;
+
+  }*/
 
 .footer-social-item{
 width: 56px;
@@ -817,6 +884,7 @@ height: 44px;
 margin-right: 8px;
 margin-bottom: 8px;;
   }
+
 
 
 
