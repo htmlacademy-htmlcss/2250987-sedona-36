@@ -109,7 +109,7 @@ body {
   outline: 3px solid #000000;
 }
 
-/*НАВИГАЦИЯ*/
+/*Да здравствует НАВИГАЦИЯ!*/
 
 .button {
   color: #ffffff;
@@ -277,11 +277,11 @@ body {
 
 .page-welcome {
   position: relative;
-  background-color: #f2f2f2;
+  background-color: #756157;
   color: #000000;
-  background-image: url("/images/index-background-1.jpeg");
+  background-image: url(../images/index-background-1.jpeg);
   width: 100%;
-  height: 485px;
+  min-height: 485px;
   background-size: 100% auto;
   background-repeat: no-repeat;
 
@@ -292,7 +292,7 @@ body {
   content: "";
   width: 100%;
   height: 57px;
-  background-image: url("/images/divider.svg");
+  background-image: url(../images/divider.svg);
   position: absolute;
   bottom: 0;
 }
@@ -348,7 +348,7 @@ body {
 
 .housing::before {
   content: "";
-  background-image: url("/images/house.svg");
+  background-image: url(../images/house.svg);
   width: 77px;
   height: 72px;
   margin-bottom: 30px;
@@ -356,7 +356,7 @@ body {
 
 .food::before {
   content: "";
-  background-image: url("/images/food.svg");
+  background-image: url(../images/food.svg);
   width: 76px;
   height: 72px;
   margin-bottom: 30px;
@@ -365,7 +365,7 @@ body {
 
 .souvenirs::before {
   content: "";
-  background-image: url("/images/gifts.svg");
+  background-image: url(../images/gifts.svg);
   width: 76px;
   height: 76px;
   margin-bottom: 27px;
@@ -451,7 +451,7 @@ body {
 
 .subscribe-index-catalog {
   position: relative;
-  background-image: url("/images/footer-background.jpeg");
+  background-image: url(../images/footer-background.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #68a2ca;
@@ -660,7 +660,7 @@ body {
 
 .filter-catalog {
   position: relative;
-  background-image: url("/images/catalog-index.jpeg");
+  background-image: url(../images/catalog-index.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #68a2ca;
@@ -731,7 +731,7 @@ body {
 
 .breadcrumbs-item:not(:last-child)::after {
   content: "";
-  background-image: url("/images/arrow-1.svg");
+  background-image: url(../images/arrow-1.svg);
   background-position: center;
   background-repeat: no-repeat;
   width: 8px;
@@ -777,7 +777,7 @@ body {
   line-height: 21px;
   color: #333333;
   appearance: none;
-  background-image: url("/images/arrow-2.svg");
+  background-image: url(../images/arrow-2.svg);
   background-repeat: no-repeat;
   background-position: right 16px center;
   cursor: pointer;
@@ -1058,7 +1058,7 @@ body {
   display: block;
   content: "";
   width: 100%;
-  background-image: url("/images/divider-2.svg");
+  background-image: url(../images/divider-2.svg);
   border: 1px solid #e6e6e6;
   margin-bottom: 37px;
 }
@@ -1562,7 +1562,7 @@ body {
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  background-image: url("/images/cross.svg");
+  background-image: url(../images/cross.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1755,7 +1755,6 @@ body {
   position: relative;
 }
 
-/* button plus/minus */
 .minus-btn {
   position: absolute;
   border: none;
@@ -1810,7 +1809,6 @@ body {
   outline: none;
 }
 
-/* tooltip */
 .tooltip {
   position: absolute;
   margin-top: 10px;
@@ -1869,7 +1867,7 @@ body {
 
 .tooltip-text::before {
   content:'';
-  background-image: url("/images/triangle-1.svg");
+  background-image: url(../images/triangle-1.svg);
   width: 19px;
   height: 9px;
   position:absolute;
