@@ -2,19 +2,19 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
   <title>Гостиницы</title>
 </head>
 <body>
   <div class="main-wrapper">
   <header class="main-page-header">
-    <nav class="navigation-container">
+    <nav class="navigation-container-page">
       <a class="logo-header" href="index.html">
         <img class="logo" src="./images/logo-desktop.svg" width="140" height="70" alt="Логотип города Седона.">
       </a>
-      <ul class="navigation-list">
+      <ul class="navigation-list-page">
         <li class="navigation-item">
           <a class="navigation-link" href="index.html">Главная</a>
         </li>
@@ -68,31 +68,31 @@
             <legend class="catalog-filter-title">Инфраструктура:</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
-                <label class="catalog-filter-check" for="myCheckbox">
-                  <input class="catalog-filter-input" type="checkbox" name="pool" id="myCheckbox" checked>
+                <label class="catalog-filter-check" for="mycheckbox">
+                  <input class="catalog-filter-input" type="checkbox" name="pool" id="mycheckbox" checked>
                   <svg class="checkbox-icon">
                     <rect width="20" height="20" x=".5" y=".5" fill="#FFFFFF" stroke="#ffffff" rx="3" />
-                    <path class="tick" stroke="#3F5E72" fill="none" stroke-linecap="none" stroke-width="2" d="M4 10l5 5 9-9" />
+                    <path class="tick" stroke="#3F5E72" fill="none" stroke-linecap="square" stroke-width="2" d="M4 10l5 5 9-9" />
                   </svg>
                   <span class="catalog-filter-text">Бассейн</span>
                 </label>
               </li>
               <li class="catalog-filter-item">
-                <label class="catalog-filter-check"  for="myCheckbox-parking">
-                  <input class="catalog-filter-input" type="checkbox" name="parking" id="myCheckbox-parking" checked>
+                <label class="catalog-filter-check"  for="mycheckbox-parking">
+                  <input class="catalog-filter-input" type="checkbox" name="parking" id="mycheckbox-parking" checked>
                   <svg class="checkbox-icon">
                     <rect width="20" height="20" x=".5" y=".5" fill="#FFFFFF" stroke="#ffffff" rx="3" />
-                    <path class="tick" stroke="#3F5E72" fill="none" stroke-linecap="none" stroke-width="2" d="M4 10l5 5 9-9" />
+                    <path class="tick" stroke="#3F5E72" fill="none" stroke-linecap="square" stroke-width="2" d="M4 10l5 5 9-9" />
                   </svg>
                   <span class="catalog-filter-text">Парковка</span>
                 </label>
               </li>
               <li class="catalog-filter-item">
-                <label class="catalog-filter-check"  for="myCheckbox-wifi">
-                  <input class="catalog-filter-input" type="checkbox" name="wi-fi" id="myCheckbox-wifi">
+                <label class="catalog-filter-check"  for="mycheckbox-wifi">
+                  <input class="catalog-filter-input" type="checkbox" name="wi-fi" id="mycheckbox-wifi">
                   <svg class="checkbox-icon">
                     <rect width="20" height="20" x=".5" y=".5" fill="#FFFFFF" stroke="#ffffff" rx="3" />
-                    <path class="tick" stroke="#3F5E72" fill="none" stroke-linecap="none" stroke-width="2" d="M4 10l5 5 9-9" />
+                    <path class="tick" stroke="#3F5E72" fill="none" stroke-linecap="square" stroke-width="2" d="M4 10l5 5 9-9" />
                   </svg>
                   <span class="catalog-filter-text">Wi-Fi</span>
                 </label>
@@ -226,7 +226,7 @@
                 <a href="#" class="button catalog-item-btn-blue">в избранное</a>
               </div>
               <div class="rating-container">
-                  <img class="rating-stars" src="./images/star3.svg" width="140" height="37" alt="Рейтинг отеля три звезды.">
+                  <img class="rating-stars" src="./images/rating-star-3.svg" width="140" height="37" alt="Рейтинг отеля три звезды.">
                   <span class="rating">Рейтинг: 6,9</span>
               </div>
           </li>
@@ -281,8 +281,6 @@
     </section>
     </div>
   </main>
-  <footer class="footer">
-
     <footer class="footer">
       <section class="subscribe subscribe-index">
         <div class="subscribe-content">
