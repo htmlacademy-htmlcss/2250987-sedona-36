@@ -3,7 +3,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -11,7 +11,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("./fonts/ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -46,7 +46,6 @@ body {
   min-height: 100%;
   font-size: 16px;
   line-height: 24px;
-
 }
 
 *,
@@ -68,7 +67,6 @@ body {
   border: 0;
   padding: 0;
   white-space: nowrap;
-
 }
 
 .main-wrapper {
@@ -142,7 +140,6 @@ body {
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-
 }
 
 .navigation-list-page{
@@ -326,7 +323,6 @@ body {
   min-height: 485px;
   background-size: 100% auto;
   background-repeat: no-repeat;
-
 }
 
 .page-welcome::after {
@@ -376,8 +372,6 @@ body {
   line-height: 26px;
   text-align: center;
   min-width: 651px;
-
-
 }
 
 
@@ -488,7 +482,6 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-
 }
 
 .button-big {
@@ -509,7 +502,6 @@ body {
   background: #756157;
   border-radius: 4px;
   border: 0;
-
 }
 
 .subscribe-index-catalog {
@@ -526,7 +518,6 @@ body {
   display: flex;
   padding: 96px 258px 104px;
   margin: 0;
-
 }
 
 
@@ -1134,7 +1125,6 @@ body {
   background: #f2f2f2;
   outline: 2px solid #000000;
 }
-
 .range-input:focus:not(:placeholder-shown) {
   background: #f2f2f2;
   outline: 2px solid #000000;
@@ -1410,9 +1400,8 @@ body {
   font-size: 18px;
   line-height: 23px;
   color: #ffffff;
-
-
 }
+
 .catalog-filter-radio {
   position: relative;
   display: block;
@@ -1482,7 +1471,6 @@ body {
 .catalog-item-btn {
   background: #756157;
   padding: 8px 26px;
-
 }
 
 .catalog-item-btn:hover,
@@ -1865,7 +1853,7 @@ body {
   margin-bottom: 64px;
 }
 
-.auth-descr {
+.auth-descriprions {
   position: absolute;
   top: 100%;
   left: 27%;
