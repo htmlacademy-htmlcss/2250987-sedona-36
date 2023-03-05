@@ -22,6 +22,8 @@ html {
 img {
   max-width: 100%;
   height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 
@@ -744,15 +746,16 @@ body {
   font-style: normal;
   line-height: 40px;
   text-align: center;
-  text-transform: uppercase;а
-  text-decoration: none;
+  text-transform: uppercase;
   display: block;
+  text-decoration: none;
 }
 
 .footer-phone-link:hover,
 .footer-phone-link:focus-visible {
   color: #756157;
   outline: none ;
+  text-decoration: none;
 }
 
 .footer-phone-link:active {
@@ -1778,7 +1781,6 @@ body {
   margin-bottom: 54px;
   padding: 0;
 }
-
 
 .modal-container {
   position: fixed;
