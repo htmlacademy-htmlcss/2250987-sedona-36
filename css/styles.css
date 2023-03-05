@@ -22,8 +22,6 @@ html {
 img {
   max-width: 100%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 
@@ -32,7 +30,7 @@ img {
 }
 
 body {
-  font-family: var(--main-font);
+  font-family: PT Sans;
   background-color: #f2f2f2;
   color: #000000;
   display: -webkit-box;
@@ -166,7 +164,7 @@ body {
   line-height: 24px;
   padding: 20px 16px;
   color: inherit;
-  font-family: var(--main-font);
+  font-family: PT Sans;
   font-weight: 700;
   font-size: 20px;
   text-transform: capitalize;
@@ -740,13 +738,13 @@ body {
 
 .footer-phone-link {
   color: #000000;
-  font-family: var(--main-font);
+  font-family: PT Sans;
   font-weight: 400;
   font-size: 40px;
   font-style: normal;
   line-height: 40px;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: uppercase;а
   text-decoration: none;
   display: block;
 }

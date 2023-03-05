@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="favicon.ico">
 <link rel="icon" type="image/png" href="images/favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
 <link rel="stylesheet" href="css/styles.css">
 <title>Седона</title>
 </head>
@@ -174,20 +174,21 @@
 
 <!-- МОДАЛЬНОЕ ОКНО-->
 <div class="modal-container modal-container-close">
-<div class="modal modal-auth">
-  <button class="modal-close-button" type="button">
-    <span class="visually-hidden">Закрыть</span>
-  </button>
-  <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
-  <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
-    <p class="field-group">
-        <span class="auth-text">Дата Заезда:</span>
-        <label class="visually-hidden" for="check-in">Заезд</label>
-        <input class="auth-from-field field" type="text" id="check-in" name="check-in" placeholder="27 апреля 2020" value="27 апреля 2020" required>
-        <button class="btn-auth-form" type="button">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"><g fill="#000" opacity=".3"><path d="M7.75 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5Z"/><path d="M17 4h-2V2h-1v2H6V2H5v2H3c-.6 0-1 .4-1 1v11c0 .5.4 1 1 1h14c.5 0 1-.5 1-1V5c0-.6-.5-1-1-1Zm0 12H3V9h14v7ZM3 8V5h2v2h1V5h8v2h1V5h2v3H3Z"/><path d="M10 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM12.25 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM7.75 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM5.5 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM5.5 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM10 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM12.25 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM14.5 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM14.5 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5Z"/></g></svg>
-        </button>
-        <span class="auth-descr">Мы не можем отправить вас в прошлое.</span>
+  <div class="modal modal-auth">
+    <button class="modal-close-button" type="button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
+    <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+    <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+      <p class="field-group">
+          <span class="auth-text">Дата заезда:</span>
+          <label class="visually-hidden" for="check-in">Заезд</label>
+          <input class="auth-from-field field" type="text" id="check-in" name="check-in" placeholder="27 апреля 2020" value="27 апреля 2020" required>
+          <button class="btn-auth-form" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"><g fill="#000" opacity=".3"><path d="M7.75 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5Z"/><path d="M17 4h-2V2h-1v2H6V2H5v2H3c-.6 0-1 .4-1 1v11c0 .5.4 1 1 1h14c.5 0 1-.5 1-1V5c0-.6-.5-1-1-1Zm0 12H3V9h14v7ZM3 8V5h2v2h1V5h8v2h1V5h2v3H3Z"/><path d="M10 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM12.25 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM7.75 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM5.5 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM5.5 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM10 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM12.25 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM14.5 12c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM14.5 13c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5Z"/></g></svg>
+          </button>
+          <span class="auth-descr">Мы не можем отправить вас в прошлое.</span>
+      </p>
       </p>
     <p class="field-group">
       <span class="auth-text auth-exit">Дата Выезда:</span>
@@ -237,6 +238,7 @@
             <path d="M3 9V11H17V9H3Z" fill="currentColor"/>
             </svg>
         </button>
+      </div>
         <label class="visually-hidden">
           <span class="visually-hidden">Количество детей</span>
           <input class="field-small" type="number" value="2" name="kids">
