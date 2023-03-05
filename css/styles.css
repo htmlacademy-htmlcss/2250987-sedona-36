@@ -22,8 +22,6 @@ html {
 img {
   max-width: 100%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 
@@ -746,7 +744,7 @@ body {
   font-style: normal;
   line-height: 40px;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: uppercase;а
   text-decoration: none;
   display: block;
 }
