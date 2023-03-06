@@ -22,14 +22,11 @@ html {
 img {
   max-width: 100%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
-
-/*:root {
+:root {
   --main-font: "PT Sans", "Arial", sans-serif;
-}*/
+}
 
 body {
   font-family: PT Sans;
